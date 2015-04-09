@@ -1,0 +1,159 @@
+\documentclass[a4paper,11pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%Paquetes
+\usepackage[spanish]{babel}  
+\usepackage{indentfirst} %%%%%%%%%%%%%%%%Crear un indent al principio
+\usepackage[latin1]{inputenc}%%%%%%%%%%%%ñ y acentos
+%\usepackage{enumerate}%%%%%%%%%%%%%%%%Mejoras del entorno enumerate
+\usepackage{chancery}
+\usepackage[paperwidth=12cm,paperheight=15cm, hmargin={0.5cm,0.5cm}, top=1cm, bottom=1cm]{geometry}
+\usepackage{latexsym,amsmath,amssymb,amsfonts}
+
+
+%----- Paquete TiKz ------------------------
+\usepackage{tikz}
+\usepackage{enumitem}
+\newcommand*{\itembolasazules}[1]{\footnotesize\protect\tikz[baseline=-3pt]%
+\protect\node[scale=.75, circle, shade, ball
+color=green!40!black]{\color{white}\large\bf#1};}
+%---------------------------------------------
+
+\usepackage{setspace}
+\usepackage{xcolor}
+
+
+\linespread{0.9}
+
+\pagestyle{empty}
+
+
+
+\begin{document}
+
+
+
+
+
+
+
+
+\begin{enumerate}[label=\itembolasazules{}]
+
+\item Operación  con enteros:
+\[
+-7\cdot 5+(6-2)^7, \qquad 8976 : 65
+\]
+
+\item Operación con fracciones:
+\[
+\left(\frac{1}{2}+\frac{2}{3}\right) \left(\frac{1}{5}\right)^7
+\]
+
+\item Operación con decimales y radicales:
+\[
+4: 2.6-7.89(34-5.3^4), \quad \sqrt{68}, \quad  \sqrt[5]{789}
+\]
+
+\item Funciones trigonométricas:
+\[
+\sin\left(\frac{3\pi}{4}\right), \qquad \tan\left(\frac{\pi}{3}\right), \qquad \cos(45^o),\qquad \arccos(0.5)
+\]
+
+
+\item Logaritmos:
+\[
+\log_{10}(1000), \quad \log_{10}(342),\quad \log_2(32) ,\quad \ln(e^5),\quad \cos(\ln(56))
+\]
+
+
+\item Factorización:
+\[
+\mathrm{factorizar(630)}, \qquad \mathrm{isprime}(23)
+\]
+
+\item Divisores y múltiplos:
+\[
+\mathrm{divisores}(180),\qquad \mathrm{mcd}(450, 325), \qquad \mathrm{mcm}(450,325)
+\]
+
+\item Ecuaciones y sistemas:
+\[
+x^2-5x+6=0, \quad  x^2+4=0,\quad
+\begin{cases}
+4x+6y=3\\
+-3x-7y=2
+\end{cases}
+\]
+
+\item Operaciones con polinomios:
+\[
+(x-3)(4x^2-3x+1)+(x-4)^3, \qquad (x^3-4x^2-6x+2):(2x-3)
+\]
+
+
+\item Factorización polinomios:
+\[
+x^4-7x^3+17x^2-17x+6
+\]
+
+\item Mcd y Mcm de polinomios:
+\[
+x^4-7x^3+17x^2-17x+6, \qquad x^3-13x+12
+\]
+
+\item Fracciones algebraicas:
+\[
+\frac{x^2-5x+6}{x^2-6x+8}, \qquad \frac{1}{x-4}+\frac{3x-3}{x^2-1}
+\]
+
+
+\item Gráficas de funciones:
+\[
+\cos(x), \qquad \exp(\sqrt{x})
+\]
+
+\item Números complejos:
+\[
+\frac{3-5i}{2+7i} +(3+i)(-3), \qquad |3+6i|
+\]
+
+\item Límites:
+\[
+\lim_{x\rightarrow 0} \frac{\sin(x)}{x}, \qquad \lim_{x\rightarrow \infty}\left(1+\frac{1}{x}\right)^x
+\]
+
+
+\item Derivadas:
+\[
+\frac{\mathrm{d}}{\mathrm{dx}}(5x^6), \qquad  \frac{\mathrm{d^2}}{\mathrm{dx^2}}(\cos(\ln(x)))
+\]
+
+\item Integrales:
+\[
+\int \sin(2x)\, \mathrm{dx} ,\qquad \int_1^4 (x^2-3x)\mathrm{dx}
+\]
+
+\item Operaciones matriciales:
+\[
+\begin{pmatrix}
+4 & 7\\
+-2 & 2
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+1 &5\\
+2 &9
+\end{pmatrix}
+\]
+
+\item Determinante, inversa:
+\[
+\begin{pmatrix}
+4 & 4 & 3\\
+-2 & 6& 3\\
+1&3 & 4
+\end{pmatrix}
+\]
+
+\end{enumerate}
+
+\end{document}
